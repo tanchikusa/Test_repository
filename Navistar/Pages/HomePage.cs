@@ -38,7 +38,7 @@ namespace Selenium.Pages
             Thread.Sleep(500);
             return new VisionStrategyPage(driver);
         }
-
+        //comment2
         public CareersPage ClickJoinOurTeamButton()
         {
             joinOurTeamButton.Click();
