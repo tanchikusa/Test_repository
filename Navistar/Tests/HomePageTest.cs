@@ -17,6 +17,7 @@ namespace Navistar.Tests
         [SetUp]
         public void Setup()
         {
+            // Initialize ...
             driver.Navigate().GoToUrl("https://navistar.com/");
             homePage = new HomePage(driver);
         }
