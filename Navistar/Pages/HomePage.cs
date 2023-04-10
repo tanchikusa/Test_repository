@@ -29,6 +29,7 @@ namespace Selenium.Pages
         {
             exploreButton.Click();
             Thread.Sleep(500);
+
             return new VisionStrategyPage(driver);
         }
 
@@ -36,6 +37,7 @@ namespace Selenium.Pages
         {
             leanMoreButton.Click();
             Thread.Sleep(500);
+
             return new VisionStrategyPage(driver);
         }
         //comment2
