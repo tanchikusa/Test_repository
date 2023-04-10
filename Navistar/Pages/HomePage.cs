@@ -43,6 +43,7 @@ namespace Selenium.Pages
         {
             joinOurTeamButton.Click();
             Thread.Sleep(500);
+
             return new CareersPage(driver);
         }
     }

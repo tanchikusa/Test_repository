@@ -58,7 +58,6 @@ namespace Navistar.Tests
         [Test]
         public void TestVisionStrategyMainMenu()
         {
-            
             var visionStrategyPage = homePage.GetMainMenu().ClickVisionAndStrategyLink();
             Assert.That(visionStrategyPage.getVisionAndStrategyMessage().Text, Is.EqualTo("VISION AND STRATEGY"));
         }
@@ -66,7 +65,6 @@ namespace Navistar.Tests
         [Test]
         public void TestWindowCareerMenu()
         {
-
             var careersPage = homePage.GetMainMenu().ClickCareersLink();
             Assert.That(careersPage.getFindJobsButton().Text, Is.EqualTo("FIND JOBS"));
         }
